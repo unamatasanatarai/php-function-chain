@@ -1,15 +1,22 @@
 <?php
 namespace Unamatasanatarai\PhpFunctionChain;
 
-class PhpFunctionChain{
-	private $_;
+class PhpFunctionChain
+{
 
-	public function __construct(&$_){
-		$this->_ = &$_;
-	}
+    private $_;
 
-	public function __call($name, $args){
-		$this->_ = $name(...$args);
-		return $this;
-	}
+    public function __construct(&$_)
+    {
+        $this->_ = &$_;
+    }
+
+    public function __call($name, $args)
+    {
+        $this->_ = empty($args)
+            ? $name($this->_)
+            : $name(...$args);
+
+        return $this;
+    }
 }

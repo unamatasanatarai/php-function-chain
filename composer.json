@@ -1,24 +1,27 @@
 {
-    "name": "unamatasanatarai/php-function-chain",
-    "type": "library",
-    "description": "PHP function chaining",
-    "homepage": "https://github.com/unamatasanatarai/php-function-chain",
-    "keywords": ["laravel5","hashing"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Unamata Sanatarai",
-            "email": "unamatasanatarai@gmail.com",
-            "homepage": "https://github.com/unamatasanatarai/",
-            "role": "Main Developer"
-        }
-    ],
-    "autoload": {
-        "files": [
-            "src/Unamatasanatarai/PhpFunctionChain/ServiceProvider.php"
-        ],
-        "psr-4": {
-            "Unamatasanatarai\\PhpFunctionChain\\": "src/Unamatasanatarai/PhpFunctionChain"
-        }
+  "name": "unamatasanatarai/php-function-chain",
+  "type": "library",
+  "description": "PHP function chaining",
+  "homepage": "https://github.com/unamatasanatarai/php-function-chain",
+  "keywords": [
+    "laravel5",
+    "hashing"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Unamata Sanatarai",
+      "email": "unamatasanatarai@gmail.com",
+      "homepage": "https://github.com/unamatasanatarai/",
+      "role": "Main Developer"
     }
+  ],
+  "autoload": {
+    "files": [
+      "src/Unamatasanatarai/PhpFunctionChain/ServiceProvider.php"
+    ],
+    "psr-4": {
+      "Unamatasanatarai\\PhpFunctionChain\\": "src/Unamatasanatarai/PhpFunctionChain"
+    }
+  }
 }
