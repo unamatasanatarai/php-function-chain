@@ -13,9 +13,7 @@ class PhpFunctionChain
 
     public function __call($name, $args)
     {
-        $this->_ = empty($args)
-            ? $name($this->_)
-            : $name(...$args);
+        $this->_ = $name(...$args);
 
         return $this;
     }
