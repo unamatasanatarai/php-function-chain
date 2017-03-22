@@ -1,7 +1,7 @@
 <?php
 namespace Unamatasanatarai\PhpFunctionChain;
 
-class ☞{
+class PhpFunctionChain{
 	private $_;
 
 	public function __construct(&$_){
