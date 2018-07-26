@@ -4,8 +4,9 @@
   "description": "PHP function chaining",
   "homepage": "https://github.com/unamatasanatarai/php-function-chain",
   "keywords": [
-    "laravel5",
-    "hashing"
+    "pipe",
+    "pipeline",
+    "chaining"
   ],
   "license": "MIT",
   "authors": [
